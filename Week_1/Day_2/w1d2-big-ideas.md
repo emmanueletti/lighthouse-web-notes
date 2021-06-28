@@ -26,6 +26,7 @@ const sayHello = () => {
 ```
 * bad example:
   * accesses person variable in an outer scope
+  * function cannot be moved without also moving the outside variable it depends on
   * throws an unecasary side effect
   * ASIDE: side effects are not always a bad thing
 
@@ -41,5 +42,6 @@ console.log(sayHello(person));
 ```
 * good example:
   * brings needed variables into its own scope
+  * function can be moved into other programs and re-used
   * returns a value that can be used by another function
   * does a single task - creates the hello string
