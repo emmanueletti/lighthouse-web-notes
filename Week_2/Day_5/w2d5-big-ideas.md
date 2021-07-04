@@ -12,11 +12,13 @@
 
 - code that is modular, resuseable, and DRY is easy to maintain, test, and expand
 
-- the pillars of OOP are:
+#### the pillars of OOP are:
 
 1. instantiation
    - the ability to create a "class" blue print and instead of copy and pasting the object, you can create instances of them from the blue prints
 2. inheritance
+   - sub classes can inherit from super/parent classes
 3. polymorphism
+   - sub/child classes that change / expand the methods from the parent/super classes
 
 [Chapter 4: Mixing (Up) "Class" Objects](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch4.md)
